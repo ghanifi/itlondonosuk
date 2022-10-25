@@ -2,7 +2,7 @@
   "name": "f1",
   "state": {
     "frontity": {
-      "url": "https://www.tercumeburosuantalya.com.tr",
+      "url": "https://it.londonos.uk",
           "title": "LONDONOS™ - Data Cable / Fibre Optic Cabling / IT Move / WiFi - Contractor",
           "description": "Londonos data cabling contractor ready to help you with initial planning stages through installation, configuration, testing of your new IT infrastructure."
     }
