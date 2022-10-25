@@ -208,9 +208,11 @@ i.fa-whatsapp {
   
 }
 li.listing-item a.title{
-    color: black;
-    font-size: larger;
-    font-weight: 700;
+ color: var(--black);
+    transition: all 0.3s ease 0s;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    display: block;
 }
 
 .wp-post-image{
