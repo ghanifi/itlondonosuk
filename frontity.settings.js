@@ -33,7 +33,7 @@
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          api: "https://it.londono.uk/wp-json/",
+          api: "https://it.londonos.uk/wp-json/",
           url: "https://it.londonos.uk",
           "homepage": "/home",
               "postsPage": "/blog",
