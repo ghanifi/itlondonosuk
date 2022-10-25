@@ -21,67 +21,67 @@ import gutenbergTheme from "./styles/gutenberg/theme.css";
  * in roots.
  */
 const Theme = ({ state }) => {
-  // Get information about the current URL.
-  const data = state.source.get(state.router.link);
-  console.log(data);
-  return (
-    <>
-      {/* Add some metatags to the <head> of the HTML. */}
-      <Title />
-      <Head>
-        <meta name="description" content={state.frontity.description} />
-        <html lang="en" />
-      </Head>
+    // Get information about the current URL.
+    const data = state.source.get(state.router.link);
+    console.log(data);
+    return (
+        <>
+            {/* Add some metatags to the <head> of the HTML. */}
+            <Title />
+            <Head>
+                <meta name="description" content={state.frontity.description} />
+                <html lang="en" />
+            </Head>
 
-      {/* Add some global styles for the whole site, like body or a's. 
+            {/* Add some global styles for the whole site, like body or a's. 
       Not classes here because we use CSS-in-JS. Only global HTML tags. */}
-      <Global styles={css(BootstrapCss)} />
-      <Global styles={css(gutenbergStyle)} />
-      <Global styles={css(gutenbergTheme)} />
-      <Global styles={globalStyles} />
+            <Global styles={css(BootstrapCss)} />
+            <Global styles={css(gutenbergStyle)} />
+            <Global styles={css(gutenbergTheme)} />
+            <Global styles={globalStyles} />
 
-      {/* Add the header of the site. */}
-      <HeadContainer>
-        <Header />
-      </HeadContainer>
+            {/* Add the header of the site. */}
+            <HeadContainer>
+                <Header />
+            </HeadContainer>
 
-      {/* Add the main section. It renders a different component depending
+            {/* Add the main section. It renders a different component depending
       on the type of URL we are in. */}
-      <Main>
-        <Switch>
-          <Loading when={data.isFetching} />
-          <List when={data.isArchive} />
-          <HomePage when={data.isHome} /> 
-          <Jobs when={data.isAwsmJobOpenings} />
-          <Page when={data.isPage} />
-          <Post when={data.isPostType} />
-          <PageError when={data.isError} />
-        </Switch>
-      </Main>
-      <FooterContainer>
-        <Footer/>
-          </FooterContainer>
+            <Main>
+                <Switch>
+                    <Loading when={data.isFetching} />
+                    <List when={data.isArchive} />
+                    <HomePage when={data.isHome} />
+                    <Jobs when={data.isAwsmJobOpenings} />
+                    <Page when={data.isPage} />
+                    <Post when={data.isPostType} />
+                    <PageError when={data.isError} />
+                </Switch>
+            </Main>
+            <FooterContainer>
+                <Footer />
+            </FooterContainer>
 
-        
-          <div className="mobilbar">
-              <ul id="altbar">
-                  <li className="phone">
-                      <a href="tel:+442039188204" id="simdiara_amp">
-                          <i className="fa fa-phone" /> CALL NOW
+
+            <div className="mobilbar">
+                <ul id="altbar">
+                    <li className="phone">
+                        <a href="tel:+442039188204" id="simdiara_amp">
+                            <i className="fa fa-phone" /> CALL NOW
       </a>
-                  </li>
-                  <li className="whatsapp">
-                      <a
-                          href="https://wa.me/442036424958/?text=LONDONOS%20IT%20SERVICES"
-                          id="whatsapp_amp"
-                      >
-                          <i className="fa fa-whatsapp" /> WHATSAPP
+                    </li>
+                    <li className="whatsapp">
+                        <a
+                            href="https://wa.me/442036424958/?text=LONDONOS%20IT%20SERVICES"
+                            id="whatsapp_amp"
+                        >
+                            <i className="fa fa-whatsapp" /> WHATSAPP
       </a>
-                  </li>
-              </ul>
-          </div>
-    </>
-  );
+                    </li>
+                </ul>
+            </div>
+        </>
+    );
 };
 
 export default connect(Theme);
@@ -191,27 +191,26 @@ ul#altbar li a {
 
 i.fa-phone {
     color: #fff;
-    background: url(https://cdn.tercumeburosuantalya.com.tr/2022/10/phone-call-1.png);
+    background: url(https://cdn.it.londonos.uk/2022/10/phone-call.png);
     float: left;
     width: 32px;
     height: 32px;
-
     margin-left: 5px;
   
 }
 i.fa-whatsapp {
     color: #fff;
-    background: url(https://cdn.tercumeburosuantalya.com.tr/2022/10/whatsapp-1.png);
+    background: url(https://cdn.it.londonos.uk/2022/10/whatsapp.png);
     float: left;
     width: 32px;
     height: 32px;
-
     margin-left: 5px;
   
 }
 
 
-
+.wp-post-image{
+width:100%;}
 
 
 `;
