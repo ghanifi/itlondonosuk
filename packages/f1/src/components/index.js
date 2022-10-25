@@ -54,8 +54,7 @@ const Theme = ({ state }) => {
           <HomePage when={data.isHome} /> 
           <Jobs when={data.isAwsmJobOpenings} />
           <Page when={data.isPage} />
-                  <Post when={data.isPostType} />
-                  <Page when={data.isDiller} />
+          <Post when={data.isPostType} />
           <PageError when={data.isError} />
         </Switch>
       </Main>
@@ -67,13 +66,13 @@ const Theme = ({ state }) => {
           <div className="mobilbar">
               <ul id="altbar">
                   <li className="phone">
-                      <a href="tel:+902426060647" id="simdiara_amp">
-                          <i className="fa fa-phone" /> ŞİMDİ ARA
+                      <a href="tel:+442039188204" id="simdiara_amp">
+                          <i className="fa fa-phone" /> CALL NOW
       </a>
                   </li>
                   <li className="whatsapp">
                       <a
-                          href="https://wa.me/905321514767/?text=TERCÜME%20BÜROSU%20ANTALYA"
+                          href="https://wa.me/442036424958/?text=LONDONOS%20IT%20SERVICES"
                           id="whatsapp_amp"
                       >
                           <i className="fa fa-whatsapp" /> WHATSAPP
