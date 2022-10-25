@@ -10,7 +10,7 @@ const Header = ({ state }) => {
       <BrandContainer>
               <StyledLink link="/">
                   <Title>
-                      <img src="https://cdn.tercumeburosuantalya.com.tr/wp-content/uploads/2022/10/londonos-logo-svg.svg" width="120" height="60" alt="Londonos IT Services" />
+                      <img src="https://cdn.it.londonos.uk/2022/10/londonos-logo.svg" width="120" height="60" alt="Londonos IT Services" />
                   </Title>
                
         </StyledLink>
