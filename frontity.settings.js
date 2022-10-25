@@ -3,8 +3,8 @@
   "state": {
     "frontity": {
       "url": "https://www.tercumeburosuantalya.com.tr",
-      "title": "Antalya Tercüme Bürosu - Yeminli ve Noter Onaylı Tercüme - LONDONOS",
-      "description": "Antalya Tercüme Bürosu Uzman Tercümanları İle Size En Kaliyeti Tercüme Hizmetini Sunuyor! Antalya Tercüme Büroları Arasında En Uygun Fiyata Tercüme Hizmeti Almak İçin Arayın! 7/24"
+          "title": "LONDONOS™ - Data Cable / Fibre Optic Cabling / IT Move / WiFi - Contractor",
+          "description": "Londonos data cabling contractor ready to help you with initial planning stages through installation, configuration, testing of your new IT infrastructure."
     }
   },
   "packages": [
@@ -13,12 +13,11 @@
       "state": {
         "theme": {
           "menu": [
-            ["Hakkımızda", "/hakkimizda/"],
-            ["Hizmetlerimiz", "/hizmetlerimiz/"],
-                ["Diller", "/category/tercume/"],            
-            ["Kariyer", "/jobs/"],
-                ["Blog", "/blog/"],
-                ["İletişim", "/iletisim/"],
+            ["Services", "/services/"],
+            ["About Us", "/about-us/"],
+            ["Blog", "/blog/"],            
+            ["Contact", "/contact/"],
+            
                
           ],
           "featured": {
@@ -34,8 +33,8 @@
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          api: "https://www.tercumeburosuantalya.com.tr/wp-json/",
-          url: "https://www.tercumeburosuantalya.com.tr",
+          api: "https://it.londono.uk/wp-json/",
+          url: "https://it.londonos.uk",
           "homepage": "/home",
               "postsPage": "/blog",
           

@@ -2,55 +2,58 @@
 import { connect, styled } from "frontity";
 import Link from "../link";
 
- 
+
 // simplest form (only email)
 
 
 const Footer = ({ state }) => {
-  // const options = state.source.get("acf-options-page");
-  return (
-    <>
-          <Container>
-              <div className="row">
-                  <div className="col-12 col-lg-6 footer-widget widget-one">
-                      <h6 className="widget-title">Tercüme Bürosu Antalya Hakkında</h6>
-                      <p>Tercüme bürosu Antalya, ödüllü 200 dili aşkın çalışan profesyonel çevirmenler ve tercümanlardan oluşan küresel bir ağ ile uluslararası çeviri hizmetleri şirketidir.
-</p> <p>Tıbbi, Medikal, Mühendislik, Finans, Sigortacılık, Gayrimenkul, Hukuk gibi özel alanlarda mesleki bilgi sahibi tercümanlar tarafından yapılan çeviriler ile işimize kalite kazandırıyoruz. İngilizce, Almanca, Rusça, Fransızca, İtalyanca, İbranice, Arapça, Latince, dilleri basta olmak üzere toplamda 54 farklı yabancı dilde tercüme hizmeti gerçekleştirebilmekteyiz.</p>
-                  </div>
-                  <div className="col-12 col-md-4 col-lg-2 footer-widget widget-two">
-                      <h6 className="widget-title">LONDONOS</h6>
-                      <ul className="widget-list">
-                          <li><Link className="widget-list-link" link="/hakkimizda/">Hakkımızda</Link></li>
-                          <li><Link className="widget-list-link" link="/hizmetlerimiz/">Tercüme Hizmetleri</Link></li>
-                          <li><Link className="widget-list-link" link="/jobs/">Kariyer</Link></li>
-                          <li><Link className="widget-list-link" link="/blog/">Blog</Link></li>
-                          <li><Link className="widget-list-link" link="/iletisim/">İletişim</Link></li>
-                      </ul>
-                  </div>
-                  <div className="col-12 col-md-4 col-lg-2 footer-widget widget-three">
-                      <h6 className="widget-title">Tercüme Antalya</h6>
-                      <ul className="widget-list">
-                          <li><Link className="widget-list-link" link="/category/tercume/">Diller</Link></li>
-                          <li><Link className="widget-list-link" link="/hizmetlerimiz/">Çeviri Hizmetleri</Link></li>
-                          <li><Link className="widget-list-link" link="/jobs/">İş İlanları</Link></li>
-                          <li><Link className="widget-list-link" link="/blog/">Blog</Link></li>
-                          <li><Link className="widget-list-link" link="/iletisim/">İletişim</Link></li>
-                      </ul>
-                  </div>
-                  <div className="col-12 col-md-4 col-lg-2 footer-widget widget-four">
-                      <h6 className="widget-title">Sosyal Medya</h6>
-                      <ul className="widget-list">
-                          <li><Link className="widget-list-link" target="_blank" rel="nofollow noopener" link="https://www.facebook.com/GGGTercume/">Facebook</Link></li>
-                          <li><Link className="widget-list-link" target="_blank" rel="nofollow noopener" link="https://twitter.com/gggtercume">Twitter</Link></li>
-                          <li><Link className="widget-list-link" target="_blank" rel="nofollow noopener" link="https://www.instagram.com/gggtercume/">Instagram</Link></li>
-                          <li><Link className="widget-list-link" target="_blank" rel="nofollow noopener" link="https://translation.londonos.uk">London Branch</Link></li>
-                      </ul>
-                  </div>
-              </div>
-         
-          </Container>
-    </>
-  );
+    // const options = state.source.get("acf-options-page");
+    return (
+        <>
+            <Container>
+                <div className="row">
+                    <div className="col-12 col-lg-6 footer-widget widget-one">
+                        <h6 className="widget-title">Londonos IT Services</h6>
+                        <p>The best network cabling contractors and data cabling company in London are available at Londonos Cabling Solutions located in London, United Kingdom.</p>
+
+                        <p>Our company offers high-quality yet inexpensive options when it comes to networking your home or office with top of the line data cable installations and WiFi networks designed to be compatible with any Wi-Fi enabled devices you may have at home or at work.</p>
+
+                        <p>Our dedicated technicians can also provide new home or office WiFi setup services and even make necessary tweaks to your existing network if you find that it’s not performing as well as it used to after some time has passed since its installation.</p>
+                    </div>
+                    <div className="col-12 col-md-4 col-lg-2 footer-widget widget-two">
+                        <h6 className="widget-title">LONDONOS</h6>
+                        <ul className="widget-list">
+                            <li><Link className="widget-list-link" link="/about-us/">About Us</Link></li>
+                            <li><Link className="widget-list-link" link="/services/">Services</Link></li>
+                            <li><Link className="widget-list-link" link="/jobs/">Career</Link></li>
+                            <li><Link className="widget-list-link" link="/blog/">Blog</Link></li>
+                            <li><Link className="widget-list-link" link="/contact/">Contact</Link></li>
+                        </ul>
+                    </div>
+                    <div className="col-12 col-md-4 col-lg-2 footer-widget widget-three">
+                        <h6 className="widget-title">IT Contractor London</h6>
+                        <ul className="widget-list">
+                            <li><Link className="widget-list-link" link="/category/tercume/">Diller</Link></li>
+                            <li><Link className="widget-list-link" link="/services/">Services</Link></li>
+                            <li><Link className="widget-list-link" link="/jobs/">We're recruiting</Link></li>
+                            <li><Link className="widget-list-link" link="/blog/">Blog</Link></li>
+                            <li><Link className="widget-list-link" link="/contact/">Contact</Link></li>
+                        </ul>
+                    </div>
+                    <div className="col-12 col-md-4 col-lg-2 footer-widget widget-four">
+                        <h6 className="widget-title">Social Media</h6>
+                        <ul className="widget-list">
+                            <li><Link className="widget-list-link" target="_blank" rel="nofollow noopener" link="https://www.facebook.com/gggtechnologies/">Facebook</Link></li>
+                            <li><Link className="widget-list-link" target="_blank" rel="nofollow noopener" link="https://twitter.com/_londonos">Twitter</Link></li>
+                            <li><Link className="widget-list-link" target="_blank" rel="nofollow noopener" link="https://www.instagram.com/_londonos/">Instagram</Link></li>
+                            <li><Link className="widget-list-link" target="_blank" rel="nofollow noopener" link="https://gggtech.co.uk">IT Services London</Link></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </Container>
+        </>
+    );
 };
 
 // Connect the Header component to get access to the `state` in it's `props`
