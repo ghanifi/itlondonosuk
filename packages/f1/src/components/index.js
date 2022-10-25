@@ -207,7 +207,11 @@ i.fa-whatsapp {
     margin-left: 5px;
   
 }
-
+li.listing-item a.title{
+    color: black;
+    font-size: larger;
+    font-weight: 700;
+}
 
 .wp-post-image{
 width:100%;}
