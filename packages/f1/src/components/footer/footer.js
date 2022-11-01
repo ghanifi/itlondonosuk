@@ -59,6 +59,7 @@ const Footer = ({ state }) => {
         <li><Link className="widget-list-link" link="https://www.gggmetal.com.tr/">Yat Ekipmanları Üretim</Link></li>
         <li><Link className="widget-list-link" link="https://www.gggtour.com/">Antalya Daily Tours</Link></li>
          <li><Link className="widget-list-link" link="https://www.gggtur.com/">Antalya Günlük Turlar</Link></li>
+         <li><Link className="widget-list-link" link="https://www.londonos.uk/">LONDONOS</Link></li>
                             </ul>
                     </div>
                 </div>
