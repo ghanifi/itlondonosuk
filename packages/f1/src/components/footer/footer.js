@@ -25,29 +25,41 @@ const Footer = ({ state }) => {
                         <ul className="widget-list">
                             <li><Link className="widget-list-link" link="/about-us/">About Us</Link></li>
                             <li><Link className="widget-list-link" link="/services/">Services</Link></li>
-                            <li><Link className="widget-list-link" link="/jobs/">Career</Link></li>
+                            <li><Link className="widget-list-link" link="/projects/">Latest Projects</Link></li>
+                            <li><Link className="widget-list-link" link="/resources/">Resources</Link></li>
                             <li><Link className="widget-list-link" link="/blog/">Blog</Link></li>
+                            <li><Link className="widget-list-link" link="/jobs/">Career</Link></li>
                             <li><Link className="widget-list-link" link="/contact/">Contact</Link></li>
                         </ul>
                     </div>
                     <div className="col-12 col-md-4 col-lg-2 footer-widget widget-three">
                         <h6 className="widget-title">IT Contractor London</h6>
                         <ul className="widget-list">
-                            <li><Link className="widget-list-link" link="/category/tercume/">Diller</Link></li>
+                            <li><Link className="widget-list-link" link="terms-conditions/">Terms & Conditions</Link></li>
+                            <li><Link className="widget-list-link" link="/privacy-policy/">Privacy Policy</Link></li>
+                            <li><Link className="widget-list-link" link="/disclaimer/">Disclaimer</Link></li>
                             <li><Link className="widget-list-link" link="/services/">Services</Link></li>
-                            <li><Link className="widget-list-link" link="/jobs/">We're recruiting</Link></li>
                             <li><Link className="widget-list-link" link="/blog/">Blog</Link></li>
+                            <li><Link className="widget-list-link" link="/jobs/">We're recruiting</Link></li>
                             <li><Link className="widget-list-link" link="/contact/">Contact</Link></li>
                         </ul>
                     </div>
                     <div className="col-12 col-md-4 col-lg-2 footer-widget widget-four">
-                        <h6 className="widget-title">Social Media</h6>
+                        <h6 className="widget-title">Londonos Companies</h6>
                         <ul className="widget-list">
-                            <li><Link className="widget-list-link" target="_blank" rel="nofollow noopener" link="https://www.facebook.com/gggtechnologies/">Facebook</Link></li>
-                            <li><Link className="widget-list-link" target="_blank" rel="nofollow noopener" link="https://twitter.com/_londonos">Twitter</Link></li>
-                            <li><Link className="widget-list-link" target="_blank" rel="nofollow noopener" link="https://www.instagram.com/_londonos/">Instagram</Link></li>
-                            <li><Link className="widget-list-link" target="_blank" rel="nofollow noopener" link="https://gggtech.co.uk">IT Services London</Link></li>
-                        </ul>
+                            <li><Link className="widget-list-link" link="https://gggtech.co.uk/">Web Design Agency London</Link></li>
+                            <li><Link className="widget-list-link" link="https://overseashealth.co.uk/">Medical Tourism</Link></li>
+                            <li><Link className="widget-list-link" link="https://translation.londonos.uk/">Translation Agency</Link></li>
+                            <li><Link className="widget-list-link" link="https://experts.londonos.uk/">Career Courses</Link></li>
+                            <li><Link className="widget-list-link" link="https://carwrappings.co.uk/">Vehicle Branding</Link></li>
+                            <li><Link className="widget-list-link" link="https://vizeavrupa.com/">İngiltere Vize Başvuru Merkezi</Link></li>
+                            <li><Link className="widget-list-link" link="https://gggtercume.com/">Antalya Tercüme Bürosu</Link></li>
+                            <li><Link className="widget-list-link" link="https://ggg.com.tr/">Pırlanta Yüzük</Link></li>
+        <li><Link className="widget-list-link" link="https://guvencoglu.com/">Kuyumcu Antalya</Link></li>
+        <li><Link className="widget-list-link" link="https://www.gggmetal.com.tr/">Yat Ekipmanları Üretim</Link></li>
+        <li><Link className="widget-list-link" link="https://www.gggtour.com/">Antalya Daily Tours</Link></li>
+         <li><Link className="widget-list-link" link="https://www.gggtur.com/">Antalya Günlük Turlar</Link></li>
+                            </ul>
                     </div>
                 </div>
 
