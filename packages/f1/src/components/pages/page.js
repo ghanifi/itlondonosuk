@@ -59,7 +59,7 @@ const Content = styled.div`
   
   * {
     max-width: 1035px;
-    width: 100%;
+    /*width: 100%;*/
     margin:0 auto;
   }
 
