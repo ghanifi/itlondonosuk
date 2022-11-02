@@ -24,6 +24,7 @@ const Footer = ({ state }) => {
                         <h6 className="widget-title">LONDONOS</h6>
                         <ul className="widget-list">
                             <li><Link className="widget-list-link" link="/about-us/">About Us</Link></li>
+                            <li><Link className="widget-list-link" link="/fully-insured/">Fully Insured</Link></li>
                             <li><Link className="widget-list-link" link="/services/">Services</Link></li>
                             <li><Link className="widget-list-link" link="/projects/">Latest Projects</Link></li>
                             <li><Link className="widget-list-link" link="/resources/">Resources</Link></li>
