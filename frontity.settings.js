@@ -15,6 +15,7 @@
           "menu": [
             ["Services", "/services/"],
             ["About Us", "/about-us/"],
+             ["Projects", "/projects/"],
             ["Blog", "/blog/"],            
             ["Contact", "/contact/"],
             
