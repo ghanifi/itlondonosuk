@@ -230,7 +230,7 @@ const HeadContainer = styled.div`
   padding-top: 2.75rem;
   padding-right: 15px;
   padding-left: 15px;
-  padding-bottom:6.25rem;
+  padding-bottom:2.75rem;
 `;
 const FooterContainer = styled.div`
   width:100%;
