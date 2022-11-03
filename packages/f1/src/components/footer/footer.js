@@ -14,11 +14,13 @@ const Footer = ({ state }) => {
                 <div className="row">
                     <div className="col-12 col-lg-6 footer-widget widget-one">
                         <h6 className="widget-title">Londonos IT Services</h6>
-                        <p>The best network cabling contractors and data cabling company in London are available at Londonos Cabling Solutions located in London, United Kingdom.</p>
+                        <p>We employ friendly professionals who have well-rounded experience, the ability to work in a team and a desire to be helpful.</p>
 
-                        <p>Our company offers high-quality yet inexpensive options when it comes to networking your home or office with top of the line data cable installations and WiFi networks designed to be compatible with any Wi-Fi enabled devices you may have at home or at work.</p>
+        <p>We continue to invest in our systems and have the standards in place for effective, streamlined and consistent service, customised to meet your needs.</p>
 
-                        <p>Our dedicated technicians can also provide new home or office WiFi setup services and even make necessary tweaks to your existing network if you find that it’s not performing as well as it used to after some time has passed since its installation.</p>
+<p>We are dedicated to providing remarkable IT services that improves your performance, increases your productivity and protects you.</p>
+
+<p>We value long-term relationships built on trust. To achieve that, we deliver fully supported vendor neutral solutions that are essential and reasonably priced.</p>
                     </div>
                     <div className="col-12 col-md-4 col-lg-2 footer-widget widget-two">
                         <h6 className="widget-title">LONDONOS</h6>
