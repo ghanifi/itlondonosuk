@@ -16,6 +16,7 @@
             ["Services", "/services/"],
             ["About Us", "/about-us/"],
              ["Projects", "/projects/"],
+              ["Service Area", "/service-area/"],
             ["Blog", "/blog/"],            
             ["Contact", "/contact/"],
             
