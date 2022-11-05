@@ -29,6 +29,7 @@ const Footer = ({ state }) => {
                             <li><Link className="widget-list-link" link="/fully-insured/">Fully Insured</Link></li>
                             <li><Link className="widget-list-link" link="/services/">Services</Link></li>
                             <li><Link className="widget-list-link" link="/projects/">Latest Projects</Link></li>
+                            <li><Link className="widget-list-link" link="/service-area/">Service Area</Link></li>
                             <li><Link className="widget-list-link" link="/resources/">Resources</Link></li>
                             <li><Link className="widget-list-link" link="/blog/">Blog</Link></li>
                             <li><Link className="widget-list-link" link="/jobs/">Career</Link></li>
