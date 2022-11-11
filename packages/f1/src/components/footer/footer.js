@@ -39,9 +39,10 @@ const Footer = ({ state }) => {
                     <div className="col-12 col-md-4 col-lg-2 footer-widget widget-three">
                         <h6 className="widget-title">IT Contractor London</h6>
                         <ul className="widget-list">
-                            <li><Link className="widget-list-link" link="terms-conditions/">Terms & Conditions</Link></li>
+                            <li><Link className="widget-list-link" link="/terms-conditions/">Terms & Conditions</Link></li>
                             <li><Link className="widget-list-link" link="/privacy-policy/">Privacy Policy</Link></li>
                             <li><Link className="widget-list-link" link="/disclaimer/">Disclaimer</Link></li>
+                            <li><Link className="widget-list-link" link="/health-safety-policy-statement/">Health & Safety</Link></li>
                             <li><Link className="widget-list-link" link="/services/">Services</Link></li>
                             <li><Link className="widget-list-link" link="/blog/">Blog</Link></li>
                             <li><Link className="widget-list-link" link="/jobs/">We're recruiting</Link></li>
