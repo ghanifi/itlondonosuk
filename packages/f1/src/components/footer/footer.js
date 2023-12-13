@@ -53,18 +53,18 @@ const Footer = ({ state }) => {
                         <h6 className="widget-title">Londonos Companies</h6>
                         <ul className="widget-list">
                             <li><Link className="widget-list-link" link="https://gggtech.co.uk/">Web Design Agency London</Link></li>
-                            <li><Link className="widget-list-link" link="https://overseashealth.co.uk/">Medical Tourism</Link></li>
-                            <li><Link className="widget-list-link" link="https://translation.londonos.uk/">Translation Agency</Link></li>
-                            <li><Link className="widget-list-link" link="https://experts.londonos.uk/">Career Courses</Link></li>
-                            <li><Link className="widget-list-link" link="https://carwrappings.co.uk/">Vehicle Branding</Link></li>
-                            <li><Link className="widget-list-link" link="https://vizeavrupa.com/">İngiltere Vize Başvuru Merkezi</Link></li>
+                            <li><Link className="widget-list-link" link="https://meditrio.com">Medical Tourism</Link></li>
+                            <li><Link className="widget-list-link" link="https://tercume-antalya.business.site/">Translation Agency</Link></li>                                                 
                             <li><Link className="widget-list-link" link="https://gggtercume.com/">Antalya Tercüme Bürosu</Link></li>
-                            <li><Link className="widget-list-link" link="https://ggg.com.tr/">Pırlanta Yüzük</Link></li>
+                            <li><Link className="widget-list-link" link="https://maps.app.goo.gl/dxLmaKggpdYMSi4MA">Pırlanta Yüzük</Link></li>
         <li><Link className="widget-list-link" link="https://guvencoglu.com/">Kuyumcu Antalya</Link></li>
         <li><Link className="widget-list-link" link="https://www.gggmetal.com.tr/">Yat Ekipmanları Üretim</Link></li>
         <li><Link className="widget-list-link" link="https://www.gggtour.com/">Antalya Daily Tours</Link></li>
          <li><Link className="widget-list-link" link="https://www.gggtur.com/">Antalya Günlük Turlar</Link></li>
          <li><Link className="widget-list-link" link="https://www.londonos.uk/">LONDONOS</Link></li>
+         <li><Link className="widget-list-link" link="https://www.beldibiroyal.com/">Antalya Beldibi Ucuz Otel</Link></li>
+         <li><Link className="widget-list-link" link="https://www.kemerroyal.com/">Kemer Ucuz Otel</Link></li>
+         <li><Link className="widget-list-link" link="https://www.kemerroyalhotel.com/">Antalya Cheap Hotel</Link></li>
                             </ul>
                     </div>
                 </div>
